@@ -7,7 +7,7 @@
     "start": "npm run serve:demo",
     "build-demo-gh-pages": "ng build --configuration production",
     "publish:lib": "cd ./projects/ngx-paypal-lib && npm run publish:lib",
-    "build:tots": "ng build --project=ngx-paypal --configuration production && cd dist/tots/table/ && npm publish --access public"
+    "build:tots": "ng build --project=ngx-paypal --configuration production && cd projects/ngx-paypal-lib/dist/ && npm publish --access public"
   },
   "private": true,
   "dependencies": {
