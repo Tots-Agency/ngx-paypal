@@ -13,7 +13,7 @@ PayPal integration for Angular. For live example and documentation visit [https:
 ## Installation
 
 ```bash
-npm install ngx-paypal --save
+npm install @tots/ngx-paypal --save
 ```
 
 Import `NgxPayPalModule` in your module (i.e. `AppModule`) 
@@ -21,7 +21,7 @@ Import `NgxPayPalModule` in your module (i.e. `AppModule`)
 ### Template
 
 ```typescript
-import { NgxPayPalModule } from 'ngx-paypal';
+import { NgxPayPalModule } from '@tots/ngx-paypal';
 ```
 
 ```typescript
@@ -49,7 +49,7 @@ import {
 import {
     IPayPalConfig,
     ICreateOrderRequest 
-} from 'ngx-paypal';
+} from '@tots/ngx-paypal';
 
 @Component({
     templateUrl: './your.component.html',
@@ -256,7 +256,7 @@ The key is to inject `PayPalScriptService`, register script manually and then ca
 ```typescript
 import {
     PayPalScriptService, IPayPalConfig
-} from 'ngx-paypal';
+} from '@tots/ngx-paypal';
 
 export class YourComponent implements OnInit {
 
